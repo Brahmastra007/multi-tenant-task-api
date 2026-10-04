@@ -1,0 +1,10 @@
+spring:
+  datasource:
+    url: jdbc:postgresql://localhost:5432/taskapi
+    username: ${DB_USERNAME:taskapi}
+    password: ${DB_PASSWORD:taskapi}
+  jpa:
+    show-sql: true
+    properties:
+      hibernate:
+        format_sql: true

@@ -1,0 +1,1 @@
+-- Placeholder: tables are added in Phase 2 (organizations, users, projects, tasks).

@@ -1,0 +1,11 @@
+spring:
+  application:
+    name: task-api
+  profiles:
+    default: dev
+  jpa:
+    open-in-view: false
+    hibernate:
+      ddl-auto: validate
+  flyway:
+    locations: classpath:db/migration
