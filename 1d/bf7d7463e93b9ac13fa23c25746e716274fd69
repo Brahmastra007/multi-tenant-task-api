@@ -1,0 +1,53 @@
+src/test/java/com/example/taskapi/TestcontainersConfiguration.java
+  s_3e46c135e4e540::t_45b0fe2658ae83 10
+src/main/resources/db/migration/V1__init_schema.sql
+  s_3e46c135e4e540::t_f06a5a4e7d6784 1-63
+src/main/java/com/example/taskapi/repository/UserRepository.java
+  s_3e46c135e4e540::t_b8b46fb60f27e3 1-17
+src/main/java/com/example/taskapi/domain/Role.java
+  s_3e46c135e4e540::t_bdc49186e25b8d 1-8
+src/main/java/com/example/taskapi/domain/User.java
+  s_3e46c135e4e540::t_a5401882595e8f 1-29
+src/main/java/com/example/taskapi/repository/OrganizationRepository.java
+  s_3e46c135e4e540::t_9d6f657b693e21 1-15
+src/test/java/com/example/taskapi/repository/TenantIsolationRepositoryTest.java
+  s_3e46c135e4e540::t_c353d80d55c9a9 1-139
+docs/phase-2-domain-model.md
+  s_3e46c135e4e540::t_89d718122bae47 1-176
+src/main/java/com/example/taskapi/domain/Organization.java
+  s_3e46c135e4e540::t_88d231de5d2a75 1-19
+src/main/java/com/example/taskapi/domain/Project.java
+  s_3e46c135e4e540::t_c476849fb1517f 1-22
+src/main/java/com/example/taskapi/domain/BaseEntity.java
+  s_3e46c135e4e540::t_6e4a2cbbf5b19b 1-39
+src/main/java/com/example/taskapi/domain/Task.java
+  s_3e46c135e4e540::t_baa77a1f77a28f 1-44
+src/main/java/com/example/taskapi/domain/TenantScopedEntity.java
+  s_3e46c135e4e540::t_07fb84a121ac45 1-21
+src/main/java/com/example/taskapi/config/JpaAuditingConfig.java
+  s_3e46c135e4e540::t_84a0cfc7592cee 1-24
+src/main/java/com/example/taskapi/repository/TaskRepository.java
+  s_3e46c135e4e540::t_ca004058d6b77c 1-12
+src/main/java/com/example/taskapi/repository/TenantScopedRepository.java
+  s_3e46c135e4e540::t_bb23333eacaaca 1-30
+src/main/java/com/example/taskapi/repository/ProjectRepository.java
+  s_3e46c135e4e540::t_76fe4a621f0017 1-6
+src/main/java/com/example/taskapi/domain/TaskStatus.java
+  s_3e46c135e4e540::t_f4a3e779ae8fd0 1-8
+---
+{
+  "schema_version": "authorship/3.0.0",
+  "git_ai_version": "1.7.5",
+  "base_commit_sha": "1dbf7d7463e93b9ac13fa23c25746e716274fd69",
+  "prompts": {},
+  "sessions": {
+    "s_3e46c135e4e540": {
+      "agent_id": {
+        "tool": "claude",
+        "id": "7ddd1486-4742-4ddb-ad36-45969e79be06",
+        "model": "claude-opus-5-5"
+      },
+      "human_author": "Anirudha Singh Mertia <anirudha.mertia@coupa.com>"
+    }
+  }
+}
