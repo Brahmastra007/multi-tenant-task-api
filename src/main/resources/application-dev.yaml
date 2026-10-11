@@ -8,3 +8,8 @@ spring:
     properties:
       hibernate:
         format_sql: true
+
+app:
+  jwt:
+    # Dev-only key, committed on purpose. Generate a real one with: openssl rand -base64 32
+    secret: ${JWT_SECRET:j7gTPEG5EttC4MCxVETr/FPwTDh4FEM5bztwdFsjeFg=}
