@@ -9,3 +9,8 @@ spring:
       ddl-auto: validate
   flyway:
     locations: classpath:db/migration
+
+app:
+  jwt:
+    access-token-ttl: 15m
+    refresh-token-ttl: 7d
